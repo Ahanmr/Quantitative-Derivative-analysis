@@ -8,8 +8,8 @@ Created on Sat Sep 15 21:16:14 2018
 
 import matplotlib.pyplot as plt
 import pandas as pd
-df1=pd.read_csv("/home/ahanmr/Desktop/Hackathon/individual_stocks_5yr/AAPL_data.csv")
-df2=pd.read_csv("/home/ahanmr/Desktop/Hackathon/individual_stocks_5yr/AAL_data.csv")
+df1=pd.read_csv("AAPL_data.csv")
+df2=pd.read_csv("AAL_data.csv")
 # Plot the Adj_Close columns
 
 df1['close'].plot(label='AAP')
